@@ -1,0 +1,1497 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <title>Alritey</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/bootstrap-select.css" rel="stylesheet">
+     <link href="css/owl.carousel.css" rel="stylesheet">
+     <link href="css/owl.carousel.min.css" rel="stylesheet">
+      <link href="css/owl.theme.default.css" rel="stylesheet">
+       <link href="css/owl.theme.default.min.css" rel="stylesheet">
+       <link href="css/mdtimepicker.css" rel="stylesheet">
+        <link href="css/multiple-select.css" rel="stylesheet">
+        <link href="css/demo-styles.css" rel="stylesheet">
+    <link href="css/example-styles.css" rel="stylesheet">
+       <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.4/css/select2.min.css" rel="stylesheet" />
+          
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+<style type="text/css">
+.fds_y5 {box-shadow: none;}
+#map { height: 625px;
+margin-top: 75px;
+float: left;
+width: 100%!important;}
+/**map button css**/
+
+.search_bar {
+    float: left;
+    width: 100%;
+}
+.need_a_cleaner {
+    float: left;
+    width: 100%;}
+
+.bhg_y56 .col-md-6 {
+    padding: 0 0;
+}
+
+.house_cleaner {
+  margin-bottom: 0px;
+    
+}
+
+.need_a_cleaner {
+    float: left;
+    width: 100%;
+    padding-top: 0px;
+    margin-top: 12px;
+    height: 545px;
+    overflow-y: auto;
+    padding-bottom: 0px;
+}
+.fds_y5 {
+    float: left;
+    position: relative;
+    width: 100%;
+    padding-bottom: 46px;
+    margin-top: 0px;
+    background: #fff;
+    border-radius: 5px;
+    padding-top: 0px;
+}
+.search_bar .navbar-form.navbar-left {
+    margin: auto;
+    float: none;
+    width: 400px;
+    margin-top: 100px;
+}
+.search_bar .navbar-form.navbar-left {
+    float: none !important;
+}
+.bhn_y6 {
+    position: absolute;
+    bottom: inherit;
+    top: 115px;
+    right: 8px;
+    z-index: 33;
+}
+#btn_two {
+    display: none;
+}
+.col-md-6.vbg.ghj {
+    width: 66%;
+}
+.col-md-6.cvd {
+    width: 33%;
+}
+.bhn_y6 button {
+    background: #0976AE;
+color: #fff !important;
+font-size: 15px;
+} 
+.bhn_y6 .fa.fa-angle-right {
+    margin-left: 7px;
+    font-size: 18px;
+}
+.bhn_y6 .fa.fa-angle-left {
+    margin-right: 7px;
+    font-size: 18px;
+}
+.col-md-6.vbg {
+    padding: 0 0;
+}
+
+.col-md-6.hgh.cvd .thumnails_sec .col-sm-4 {
+    float: left;
+    width: 20%;
+}
+.col-md-6.hgh {
+    transform-origin: right;box-shadow: 0px -1px 6px 0 rgba(0,0,0,.4);
+}
+
+
+.bhn button {
+    background: #eeeeee;
+    color: #0976AE !important;
+    font-size: 15px;width: 106px;
+}
+.bhn {
+   position: absolute;
+right: 8px;
+top: 78px;
+}
+.bhn .fa.fa-angle-left {
+    margin-right: 8px;
+    font-size: 17px;
+}
+.bhn button {
+    display: none;
+}
+.col-md-6.vbg.ghj #btn_hide {
+    display: none;
+}
+#btn_hide {
+    margin: 7px 0;
+    width: 106px;
+}
+.bhn.show_map button {
+    background: #0976AE;
+    color: #fff !important;
+    font-size: 15px;
+    width: 106px;
+}
+.bhn.show_map {
+    top: 102px;
+    right: 87px;
+}
+.thumnails_sec .thumbnail {
+    float: left;
+    width: 17.5%;
+}
+.col-md-6.hgh.cvd {
+    width: 33% !important;
+}
+#btn_list_show {
+    display: none;
+}
+@media (min-width:991px){
+
+.col-md-6.hgh {
+    display: block !important;
+}
+}
+
+@media (max-width:991px){
+.bhn button {display: block;}
+#btn_one {display: none !important;}
+.col-md-6.hgh {width: 100% !important;}
+#btn_hide {display:none !important;}
+#btn_list_show {display: block;}
+.bhg_y56 .col-md-6.hgh {padding: 0 60px;}
+.search_bar .navbar-form.navbar-left {
+ margin-top: 33px;}
+.col-md-6.hgh .col-sm-4 {width: 50% !important;}
+.col-md-6.hgh .need_a_cleaner {
+    padding: 0 4px !important;
+}
+.col-md-6.hgh .search_bar {
+    margin-top: 72px;
+    padding: 0 4px !important;
+}
+.bhn.show_map {right: 8px;}
+/*.col-md-6.hgh {
+    display: none;
+}*/
+#btn_two {
+    display: block!important;
+}
+}
+@media (max-width:767px){
+#map {margin-top: 52px;}
+
+}
+
+@media (max-width:700px){
+.col-md-6.hgh .col-sm-4 {
+    width: 100%!important;
+}
+.bhn.show_map {
+    top: 65px;
+    right: 13px;
+}
+}
+
+@media (max-width:550px){
+.fds_y5 .col-sm-4 {float: left;width: 100%;}
+.bhg_y56 .col-md-6.hgh {padding: 0 10px;}
+.search_bar .navbar-form.navbar-left {float: left !important;width: 100%;}
+.bhn.show_map {right: 27px;}
+
+}
+
+</style>
+
+    <div class="top_bar">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="multi_menus">
+             
+      <nav class="navbar navbar-default" role="navigation">
+        <div class="navbar-header">
+           
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+             <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+          </button> <a class="navbar-brand" href="home.html"><img src="images/logo.png"></a>
+        </div>
+        
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+          </ul>
+         
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+                  <a href="home.html">Home</a>
+                </li>
+                <li class="active">
+                  <a href="browse_task.html">Browse Task</a>
+                </li>
+                <li>
+                  <a href="http://www.alritey.com/how.html">How it works</a>
+                </li>
+                 <li>
+                  <a href="http://www.alritey.com/why.html">Why Alritey</a>
+                </li>
+                <li>
+                  <a>About Us</a>
+                </li>
+               
+                <li>
+                <a id="modal-407028" href="#modal-container-407028"  data-toggle="modal">Login / Signup</a>
+                </li>
+                <!--li class="post_jb">
+                  <a id="modal-407028" href="#modal-container-407028"  data-toggle="modal">Post a job</a>
+                </li-->
+            
+          </ul>
+        </div>
+        </nav>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+      
+
+    <div class="bhg_y56">
+    <div class="col-md-6 vbg">
+    <div class="bhn_y6">
+   <p> <button class="btn btn ghg" id="btn_one">More Map<i class="fa fa-angle-right"></i></button></p>
+   <p> <button class="btn btn hgy" id="btn_two"><i class="fa fa-angle-left"></i>More List</button></p>
+   <p> <button class="btn btn hgy" id="btn_hide">Hide Map</button></p>
+   <!--p> <button class="btn btn hgy" id="btn_list_show"><i class="fa fa-angle-left"></i>More List</button></p-->
+
+
+    </div>
+<div class="map_view" id="map">
+</div>
+</div>
+<div class="col-md-6 hgh">
+<div class="search_bar">
+<!--div class="bhn">
+<button class="btn btn hgy" id="btn_three"><i class="fa fa-angle-left"></i>More Map</button>
+
+</div-->
+
+<form class="navbar-form navbar-left" role="search">
+            <div class="form-group">
+              <input class="form-control" type="text" />
+             <button type="submit" class="btn btn-default">
+              <i class="fa fa-search"></i>
+            </button>
+            </div>
+          </form>
+          </div>
+
+<div class="need_a_cleaner">
+  <div class="bhn show_map">
+<button class="btn btn hgy" id="btn_show_map">Show Map</button>
+</div>
+          <div class="fds_y5">
+             <div class="col-sm-4">
+              <div class="house_cleaner">
+               <div class="on_pri"><p class="star_imgg"><a href="profile_browse.html"><img src="images/srch1.png"></a></p>
+                <span><i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i></span>
+                              </div>
+                            <div class="pri_cont nh_y6">
+                            <h2 class="gf_u7">
+                            <a href="task_detail.html">Need a house cleaner</a></h2></div>
+                             
+                              <a href="task_detail.html"><p id="cv_u7">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p></a>
+                              <div class="multi_vws">
+                  <p><a href="#" class="hj_y6">$200</a><span>/</span><a href="#">30 minutes ago</a><span>/</span><a href="#">30 Kms away</a></p>
+                </div>
+          <div class="thumnails_sec">
+            <h2>Attachments</h2>
+          <div class="thum_img">
+          <div class="thumbnail">
+          <img alt="First" src="images/srch1.png">
+          
+        </div>
+        
+          <div class="thumbnail">
+            <img alt="Thumbnail Second" src="images/srch1.png">
+         </div>
+       
+        
+          <div class="thumbnail">
+            <img alt="Third" src="images/srch1.png">
+         </div>
+        
+       
+          <div class="thumbnail">
+            <img alt="Third" src="images/srch1.png">
+        
+        </div>
+        
+          <div class="thumbnail">
+            <img alt="Third" src="images/srch1.png">
+        
+        </div>
+      </div>
+       </div>
+                  <div class="act_bttns">
+                    <a id="modal-407090" href="#modal-container-407090"  data-toggle="modal"><img src="images/button logo.png"></a>
+                  </div>
+              </div>
+            </div>
+
+            <div class="col-sm-4">
+              <div class="house_cleaner">
+                 
+               <div class="on_pri"><p class="star_imgg"><a href="profile_browse.html"><img src="images/srch1.png"></a></p>
+                <span><i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i></span>
+                              </div>
+                              <div class="pri_cont nh_y6">
+                              <h2 class="gf_u7">
+                              <a href="task_detail.html">Need a house cleaner</a></h2>
+                               </div>
+                               
+                              <a href="task_detail.html"><p id="cv_u77">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p></a>
+                            
+                              <div class="multi_vws">
+                  <p><a href="#" class="hj_y6">$200</a><span>/</span><a href="#">30 minutes ago</a><span>/</span><a href="#">30 Kms away</a></p>
+                </div>
+                <div class="thumnails_sec">
+            <h2>Attachments</h2>
+         <div class="thum_img">
+          <div class="thumbnail">
+          <img alt="First" src="images/srch1.png">
+         
+        </div>
+        
+          <div class="thumbnail">
+            <img alt="Thumbnail Second" src="images/srch1.png">
+        
+        </div>
+       
+          <div class="thumbnail">
+            <img alt="Third" src="images/srch1.png">
+        
+        </div>
+        
+          <div class="thumbnail">
+            <img alt="Third" src="images/srch1.png">
+          </div>
+        
+        
+          <div class="thumbnail">
+            <img alt="Third" src="images/srch1.png">
+       
+        </div>
+       </div>
+     </div>
+                  <div class="act_bttns">
+                    <a id="modal-407090" href="#modal-container-407090"  data-toggle="modal"><img src="images/button logo.png"></a>
+                  </div>
+              </div>
+              </div>
+            
+
+            <div class="col-sm-4">
+              <div class="house_cleaner">
+               <div class="on_pri"><p class="star_imgg"><a href="profile_browse.html"><img src="images/srch1.png"></a></p>
+                <span><i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i></span>
+                              </div>
+                        <div class="pri_cont">
+                        <h2 class="gf_u7">
+                        <a href="task_detail.html">Need a house cleaner</a></h2>
+                        <span class="on_pri pr">
+                        <a href="task_detail.html">On Priority</a></span></div>
+                          
+                              <a href="task_detail.html"><p id="cv_u76">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p></a>
+                              <div class="multi_vws">
+                  <p><a href="#" class="hj_y6">$200</a><span>/</span><a href="#">30 minutes ago</a><span>/</span><a href="#">30 Kms away</a></p>
+                </div>
+                <div class="thumnails_sec">
+            <h2>Attachments</h2>
+          <div class="thum_img">
+          <div class="thumbnail">
+          <img alt="First" src="images/srch1.png">
+          </div>
+       
+       
+          <div class="thumbnail">
+            <img alt="Thumbnail Second" src="images/srch1.png">
+     
+        </div>
+       
+          <div class="thumbnail">
+            <img alt="Third" src="images/srch1.png">
+        
+        </div>
+        
+          <div class="thumbnail">
+            <img alt="Third" src="images/srch1.png">
+       
+        </div>
+        
+          <div class="thumbnail">
+            <img alt="Third" src="images/srch1.png">
+       
+        </div>
+      </div>
+       </div>
+                  <div class="act_bttns">
+                    <a id="modal-407090" href="#modal-container-407090"  data-toggle="modal"><img src="images/button logo.png"></a>
+                  </div>
+              </div>
+              </div>
+            
+            
+             <div class="col-sm-4">
+              <div class="house_cleaner">
+              <div class="on_pri"><p class="star_imgg"><a href="profile_browse.html"><img src="images/srch1.png"></a></p>
+              <span><i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i></span></div>
+                        <div class="pri_cont">
+                        <h2 class="gf_u7">
+                        <a href="task_detail.html">Need a house cleaner</a></h2>
+                        <span class="on_pri pr">
+                        <a href="task_detail.html">On Priority</a></span></div>
+                              <a href="task_detail.html">
+                              <p id="cv_u78">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p></a>
+                              <div class="multi_vws">
+                  <p><a href="#" class="hj_y6">$200</a><span>/</span><a href="#">30 minutes ago</a><span>/</span><a href="#">30 Kms away</a></p>
+                </div>
+                <div class="thumnails_sec">
+            <h2>Attachments</h2>
+         <div class="thum_img">
+          <div class="thumbnail">
+          <img alt="First" src="images/srch1.png">
+          </div>
+      
+       
+          <div class="thumbnail">
+            <img alt="Thumbnail Second" src="images/srch1.png">
+     
+        </div>
+      
+          <div class="thumbnail">
+            <img alt="Third" src="images/srch1.png">
+        
+        </div>
+       
+          <div class="thumbnail">
+            <img alt="Third" src="images/srch1.png">
+         
+        </div>
+        
+          <div class="thumbnail">
+            <img alt="Third" src="images/srch1.png">
+         
+        </div>
+      </div>
+       </div>
+                  <div class="act_bttns">
+                    <a id="modal-407090" href="#modal-container-407090"  data-toggle="modal"><img src="images/button logo.png"></a>
+                  </div>
+              </div>
+              </div>
+            
+             
+             <div class="col-sm-4">
+              <div class="house_cleaner">
+                 
+               <div class="on_pri"><p class="star_imgg"><a href="profile_browse.html"><img src="images/srch1.png"></a></p>
+               <span><i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i></span></div>
+                              <div class="pri_cont nh_y6">
+                              <h2 class="gf_u7"><a href="task_detail.html">Need a house cleaner</a></h2></div>
+                              <a href="task_detail.html">
+                              <p id="cv_u79">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p></a>
+                              <div class="multi_vws">
+                <p><a href="#" class="hj_y6">$200</a><span>/</span><a href="#">30 minutes ago</a><span>/</span><a href="#">30 Kms away</a></p>
+                </div>
+                <div class="thumnails_sec">
+            <h2>Attachments</h2>
+          <div class="thum_img">
+          <div class="thumbnail">
+          <img alt="First" src="images/srch1.png">
+        
+        </div>
+        
+          <div class="thumbnail">
+            <img alt="Thumbnail Second" src="images/srch1.png">
+         
+        </div>
+        
+          <div class="thumbnail">
+            <img alt="Third" src="images/srch1.png">
+        
+        </div>
+        
+          <div class="thumbnail">
+            <img alt="Third" src="images/srch1.png">
+        
+        </div>
+        
+          <div class="thumbnail">
+            <img alt="Third" src="images/srch1.png">
+       
+        </div>
+      </div>
+       </div>
+                  <div class="act_bttns">
+                    <a id="modal-407090" href="#modal-container-407090"  data-toggle="modal"><img src="images/button logo.png"></a>
+                  </div>
+              </div>
+              </div>
+           
+             <div class="col-sm-4">
+              <div class="house_cleaner">
+                
+               <div class="on_pri"><p class="star_imgg"><a href="profile_browse.html"><img src="images/srch1.png"></a></p>
+               <span><i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i></span></div>
+                              <div class="pri_cont nh_y6">
+                              <h2 class="gf_u7"><a href="task_detail.html">Need a house cleaner</a></h2></div>
+                              <a href="task_detail.html">
+                              <p id="cv_u70">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p></a>
+                              <div class="multi_vws">
+                  <p><a href="#" class="hj_y6">$200</a><span>/</span><a href="#">30 minutes ago</a><span>/</span><a href="#">30 Kms away</a></p>
+                </div>
+                <div class="thumnails_sec">
+            <h2>Attachments</h2>
+          <div class="thum_img">
+          <div class="thumbnail">
+          <img alt="First" src="images/srch1.png">
+         
+        </div>
+       
+          <div class="thumbnail">
+            <img alt="Thumbnail Second" src="images/srch1.png">
+        
+        </div>
+        
+          <div class="thumbnail">
+            <img alt="Third" src="images/srch1.png">
+         
+        </div>
+       
+          <div class="thumbnail">
+            <img alt="Third" src="images/srch1.png">
+         
+        </div>
+        
+          <div class="thumbnail">
+            <img alt="Third" src="images/srch1.png">
+        
+        </div>
+      </div>
+       </div>
+                  <div class="act_bttns">
+                    <a id="modal-407090" href="#modal-container-407090"  data-toggle="modal"><img src="images/button logo.png"></a>
+                  </div>
+              </div>
+              </div>
+            
+      
+             <div class="col-sm-4">
+              <div class="house_cleaner">
+                 
+               <div class="on_pri"><p class="star_imgg"><a href="profile_browse.html"><img src="images/srch1.png"></a></p>
+                <span><i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i></span></div>
+                              <div class="pri_cont nh_y6">
+                              <h2 class="gf_u7"><a href="task_detail.html">Need a house cleaner</a></h2></div>
+                              <a href="task_detail.html">
+                              <p id="cv_u71">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p></a>
+                              <div class="multi_vws">
+                  <p><a href="#" class="hj_y6">$200</a><span>/</span><a href="#">30 minutes ago</a><span>/</span><a href="#">30 Kms away</a></p>
+                </div>
+                <div class="thumnails_sec">
+            <h2>Attachments</h2>
+         <div class="thum_img">
+          <div class="thumbnail">
+          <img alt="First" src="images/srch1.png">
+         
+        </div>
+        
+          <div class="thumbnail">
+            <img alt="Thumbnail Second" src="images/srch1.png">
+        
+        </div>
+       
+          <div class="thumbnail">
+            <img alt="Third" src="images/srch1.png">
+         
+        </div>
+        
+          <div class="thumbnail">
+            <img alt="Third" src="images/srch1.png">
+         
+        </div>
+       
+          <div class="thumbnail">
+            <img alt="Third" src="images/srch1.png">
+         
+        </div>
+       </div>
+     </div>
+                  <div class="act_bttns">
+                    <a id="modal-407090" href="#modal-container-407090"  data-toggle="modal"><img src="images/button logo.png"></a>
+                  </div>
+              </div>
+              </div>
+           
+             <div class="col-sm-4">
+              <div class="house_cleaner">
+                
+               <div class="on_pri"><p class="star_imgg"><a href="profile_browse.html"><img src="images/srch1.png"></a></p>
+                <span><i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i></span></div>
+                         <div class="pri_cont">
+                        <h2 class="gf_u7">
+                        <a href="task_detail.html">Need a house cleaner</a></h2>
+                        <span class="on_pri pr">
+                        <a href="task_detail.html">On Priority</a></span></div>
+                              <a href="task_detail.html">
+                              <p id="cv_u72">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p></a>
+                              <div class="multi_vws">
+                  <p><a href="#" class="hj_y6">$200</a><span>/</span><a href="#">30 minutes ago</a><span>/</span><a href="#">30 Kms away</a></p>
+                </div>
+                <div class="thumnails_sec">
+            <h2>Attachments</h2>
+          <div class="thum_img">
+          <div class="thumbnail">
+          <img alt="First" src="images/srch1.png">
+         
+        </div>
+        
+          <div class="thumbnail">
+            <img alt="Thumbnail Second" src="images/srch1.png">
+        
+        </div>
+        
+          <div class="thumbnail">
+            <img alt="Third" src="images/srch1.png">
+        
+        </div>
+        
+          <div class="thumbnail">
+            <img alt="Third" src="images/srch1.png">
+         
+        </div>
+      
+          <div class="thumbnail">
+            <img alt="Third" src="images/srch1.png">
+         
+        </div>
+       </div>
+     </div>
+                  <div class="act_bttns">
+                    <a id="modal-407090" href="#modal-container-407090"  data-toggle="modal"><img src="images/button logo.png"></a>
+                  </div>
+              </div>
+              </div>
+            
+
+             
+             <div class="col-sm-4">
+              <div class="house_cleaner">
+                  
+               <div class="on_pri"><p class="star_imgg"><a href="profile_browse.html"><img src="images/srch1.png"></a></p>
+                <span><i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i></span></div>
+                              <div class="pri_cont nh_y6">
+                              <h2 class="gf_u7"><a href="task_detail.html">Need a house cleaner</a></h2></div>
+                              <a href="task_detail.html">
+                              <p id="cv_u73">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p></a>
+                              <div class="multi_vws">
+                  <p><a href="#" class="hj_y6">$200</a><span>/</span><a href="#">30 minutes ago</a><span>/</span><a href="#">30 Kms away</a></p>
+                </div>
+                <div class="thumnails_sec">
+            <h2>Attachments</h2>
+        <div class="thum_img">
+          <div class="thumbnail">
+          <img alt="First" src="images/srch1.png">
+         
+        </div>
+       
+          <div class="thumbnail">
+            <img alt="Thumbnail Second" src="images/srch1.png">
+       
+        </div>
+        
+          <div class="thumbnail">
+            <img alt="Third" src="images/srch1.png">
+         
+        </div>
+        
+          <div class="thumbnail">
+            <img alt="Third" src="images/srch1.png">
+      
+        </div>
+      
+          <div class="thumbnail">
+            <img alt="Third" src="images/srch1.png">
+       
+        </div>
+      </div>
+       </div>
+                  <div class="act_bttns">
+                    <a id="modal-407090" href="#modal-container-407090"  data-toggle="modal"><img src="images/button logo.png"></a>
+                  </div>
+              </div>
+              </div>
+                <div class="col-sm-4">
+              <div class="house_cleaner">
+                  
+               <div class="on_pri"><p class="star_imgg"><a href="profile_browse.html"><img src="images/srch1.png"></a></p>
+                <span><i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i></span></div>
+                              <div class="pri_cont nh_y6">
+                              <h2 class="gf_u7"><a href="task_detail.html">Need a house cleaner</a></h2></div>
+                              <a href="task_detail.html">
+                              <p id="cv_u74">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p></a>
+                              <div class="multi_vws">
+                  <p><a href="#" class="hj_y6">$200</a><span>/</span><a href="#">30 minutes ago</a><span>/</span><a href="#">30 Kms away</a></p>
+                </div>
+                <div class="thumnails_sec">
+            <h2>Attachments</h2>
+         <div class="thum_img">
+          <div class="thumbnail">
+          <img alt="First" src="images/srch1.png">
+          
+        </div>
+       
+          <div class="thumbnail">
+            <img alt="Thumbnail Second" src="images/srch1.png">
+         
+        </div>
+       
+          <div class="thumbnail">
+            <img alt="Third" src="images/srch1.png">
+         
+        </div>
+        
+          <div class="thumbnail">
+            <img alt="Third" src="images/srch1.png">
+        
+        </div>
+        
+          <div class="thumbnail">
+            <img alt="Third" src="images/srch1.png">
+        
+        </div>
+      </div>
+       </div>
+                  <div class="act_bttns">
+                    <a id="modal-407090" href="#modal-container-407090"  data-toggle="modal"><img src="images/button logo.png"></a>
+                </div>
+               </div>
+              </div>
+             </div>
+
+         
+       <!--div class="add_moree">
+          <a>View More</a>
+          </div-->
+            </div>
+          </div>
+          </div>
+
+          <div class="about_company">
+            <div class="container">
+              <div class="row">
+          <div class="col-sm-7">
+           <div class="copy_rights">
+              <div class="footer_rights">
+                <p class="log_icon"><a href="home.html"><img src="images/logo.png"></a></p>
+                <p>Built with <a href="http://www.henceforthsolutions.com/" target="_blank">Henceforth Solutions.</a>&copy; 2017 Alritey, Inc. All Rights Reserved</p>
+              </div>
+            </div>
+          </div>
+            
+            <div class="col-sm-5">
+            <div class="social_part">
+              <div class="socils jh_q7">
+              
+                <ul>
+                <!--li><a href="home.html">Home</a></li-->
+            <!--li><a href="how_it_works.html">How it works</a></li-->
+          <li><a id="modal-405656" href="#modal-container-405656"  data-toggle="modal">Contact Us</a></li>
+                <li><a>Terms & Conditions</a></li>
+                <li><a>Privacy</a></li>
+               </ul>
+              </div>
+              <div class="socils">
+                
+               <div class="bottm_socilas">
+               <a> <i class="fa fa-facebook"></i></a>
+                <a><i class="fa fa-google"></i></a>
+               <a> <i class="fa fa-twitter"></i></a>
+                <a><i class="fa fa-instagram"></i></a>
+                 </div>
+              </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+        
+          
+      
+
+
+
+ <!--post proposal popup-->
+
+    <div class="proposal">
+<div class="modal fade" id="modal-container-407090" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+               
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+              <h4 class="modal-title" id="myModalLabel">Post Proposal</h4>
+            </div>
+            <div class="modal-body">
+              <div class="main_content">
+
+                <h2>Duration</h2>
+               
+             <input type="" name="time" required="" class="form-control nm_h6 dur" onkeypress="return isNumberKey(event)" placeholder="Days needed to complete job eg. 3">
+              <div class="text_area">
+              <h2>Description</h2>
+             <textarea class="form-control" id="exampleTextarea" rows="3" placeholder="Write Proposal to convince Customer..."></textarea>
+              
+              </div>
+
+               <div class="acct_btns">
+
+                <a href="#"><input type="button" name="" class="btn btn log" value="Submit" data-dismiss="modal"></a>
+                
+               </div>
+
+          
+           </div>
+
+            </div>
+            
+          </div>
+          
+        </div>
+        
+      </div>
+    </div>
+
+
+
+
+ <!--contact us popup-->
+    <div class="proposal contact_us">
+<div class="modal fade" id="modal-container-405656" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            <h4 class="modal-title" id="myModalLabel">Contact us</h4>
+            </div>
+            <div class="modal-body">
+            <div class="main_content">
+            <h2>Have questions about our products, support services, or anything else? Let us know and we’ll get back to you.</h2>
+            <div class="text_area con_us">
+            <textarea class="form-control" rows="3" placeholder="Write here..."></textarea>
+            </div>
+              <div class="acct_btns">
+             <input type="button" name="" class="btn btn log" value="Submit" data-dismiss="modal">
+                
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+
+
+<!---signin popup-->
+
+      <div class="modal_view">
+      <div class="modal" id="modal-container-407028" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+               
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+              <h4 class="modal-title" id="myModalLabel">Login</h4>
+            </div>
+            <div class="modal-body">
+              <div class="main_content">
+             <form>
+               <input type="email" name="email" required="" class="form-control nm_h6 j_h" placeholder="Email">
+               <input type="password" name="password" required="" class="form-control nm_h6 k_l" placeholder="Password">
+               <p><a id="modal-4070883" href="#modal-container-407083"  data-toggle="modal" data-dismiss="modal">Forgot Password ?</a></p>
+
+               <div class="acct_btns">
+
+                <a href="dashboard.html"><input type="button" name="" class="btn btn log" value="Login"></a>
+                <p>or connect with</p>
+               </div>
+
+          </form>
+           </div>
+
+            </div>
+            <div class="modal-footer">
+              <a href="#"> <i class="fa fa-facebook"></i></a>
+              <a href="#"> <i class="fa fa-google"></i></a>
+             <p><a id="modal-407070" href="#modal-container-407070"  data-toggle="modal" data-dismiss="modal"><span class="small_ltter">Don't have an Account ?</span> Sign Up</a></p>
+            </div>
+          </div>
+          
+        </div>
+        
+      </div>
+      </div>
+
+      <!---forgotpass popup-->
+
+      <div class="modal_view forgot_pass">
+      <div class="modal" id="modal-container-407083" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+               
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+              <h4 class="modal-title" id="myModalLabel">Forgot Password</h4>
+            </div>
+            <div class="modal-body">
+              <div class="main_content">
+             <form>
+              <label>Enter your email or phone no. to reset your password. You'll get a recovery link on your registered email or phone no.</label>
+               <input type="email" name="email" required="" class="form-control nm_h6 j_h" placeholder="Email">
+               <div class="acct_btns">
+                <a href="#"><input type="button" name="" class="btn btn log" value="Submit" data-dismiss="modal" aria-hidden="true"></a>
+               </div>
+          </form>
+           </div>
+
+            </div>
+          </div>
+          
+        </div>
+        
+      </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+      <!---sigup popup-->
+
+      <div class="modal_view">
+      <div class="modal" id="modal-container-407070" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+              <h4 class="modal-title" id="myModalLabel">Sign up</h4>
+            </div>
+            <div class="modal-body">
+              <div class="main_content">
+             <form>
+              <input type="text" name="name" required="" class="form-control nm_h6 n_m" placeholder="Name">
+               <input type="email" name="email" required="" class="form-control nm_h6 e_m" placeholder="Email">
+              <input type="password" name="password" required="" class="form-control nm_h6 p_s" placeholder="Password">
+           <div class="radio_opt">
+           <div id="mydivid" class="kl_j8">
+            <div class="xc_y6">
+      <select class="js-example-placeholder-single bn_i8 form-control" data-placeholder="Gender">
+         <option value="">Gender</option>
+           <option value="mercedes">Male</option>     
+           <option value="mercedes">Female</option>
+</select>
+          </div>
+           </div>
+          </form>
+
+             <div class="date_of_birth mb_c5">
+              <div class="xc_y6 nz_y6">
+          <select class="js-example-placeholder-single bj_i8 form-control" data-placeholder="Month">
+              <option value="">Choose a month</option>
+    <option value="redText">January</option>
+    <option value="saab" class="redText">February</option>
+    <option value="mercedes" class="redText">March</option>
+     <option value="mercedes" class="redText">April</option>
+      <option value="mercedes">May</option>
+       <option value="mercedes">June</option>
+        <option value="mercedes">July</option>
+         <option value="mercedes">August</option>
+          <option value="mercedes">September</option>
+           <option value="mercedes">October</option>
+            <option value="mercedes">November</option>
+             <option value="mercedes">December</option>
+    
+    </select> 
+  </div>
+    
+    <input type="text" name="Day" required="" class="form-control nm_h6 e_m" placeholder="Day" id="numb" maxlength="2" style="text-align: center;">
+
+    <input name="Year" required="" class="form-control nm_h6 e_m" placeholder="Year" id="numb" type="" maxlength="4" style="text-align: center;">
+        </div>
+    <!--input class="form-control nm_h6 p_n required" placeholder="Phone Number" id="numb" type="text" maxlength="11" pattern="([0-9]|[0-9]|[0-9])"-->
+        </div>
+        <div class="acct_btns">
+        <input type="button" name="" class="btn btn log" value="Next" onClick="sub()"  data-dismiss="modal">
+        </div>
+       </form>
+      </div>
+    </div>
+            <div class="modal-footer">
+             <p><a id="modal-407028" href="#modal-container-407028"  data-toggle="modal" data-dismiss="modal"><span class="small_ltter">Have an Account ? </span>Login</a></p>
+            </div>
+          </div>
+       </div>
+      </div>
+    </div>
+<!---otp popup-->
+<div class="otp_box">
+<div class="modal" id="modal-container-407088" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+               
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+              <h4 class="modal-title" id="myModalLabel">OTP</h4>
+            </div>
+            <div class="modal-body">
+              <div class="main_content">
+                <h2>Verification Code</h2>
+                <p>Please type the verification code send to <b>+61456767567</b></p>
+                <div class="number_hg_67">
+              <input type="text" name="number" required="" class="form-control nm_h6" placeholder="1" onKeyDown="limitText(this,3);">
+               <input type="text" name="number" required="" class="form-control nm_h6" placeholder="0" onKeyDown="limitText(this,3);">
+               <input type="text" name="number" required="" class="form-control nm_h6" placeholder="3" onKeyDown="limitText(this,3);">
+               <input type="text" name="number" required="" class="form-control nm_h6" placeholder="8" onKeyDown="limitText(this,3);">
+               </div>
+
+               <div class="acct_btns">
+
+               <a id="modal-407050" href="#modal-container-407050"  data-toggle="modal"> <input type="button" name="" class="btn btn log" value="Submit" data-dismiss="modal"></a>
+                <p><a href="">Resend Code</a></p>
+               </div>
+
+          
+           </div>
+
+            </div>
+            
+          </div>
+          
+        </div>
+        
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+<!--create business popup -->
+
+<div class="create_business_profile">
+<div class="modal" id="modal-container-407050" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+               
+             <button type="button" class="close" onclick="window.location.href='dashboard.html'" data-dismiss="modal" aria-hidden="true">×</button>
+              <h4 class="modal-title" id="myModalLabel">Create Business Profile</h4>
+            </div>
+            <div class="modal-body">
+              <div class="main_content">
+                <div class="row">
+                  <div class="col-sm-6">
+
+ <form class="demo-example">
+  <div class="bn_j7">
+       
+        <select id="people" name="people" data-placeholder="More Services" multiple>
+            <option value="alice">Alice</option>
+            <option value="bob">Bob</option>
+            <option value="carol">Carol</option>
+            <option value="alice">Alice</option>
+            <option value="bob">Bob</option>
+            <option value="carol">Carol</option>
+            <option value="alice">Alice</option>
+            <option value="bob">Bob</option>
+            <option value="carol">Carol</option>
+        </select>
+      </div>
+     
+    </form>
+   </div>
+
+
+
+    <div class="col-sm-6">
+   <form class="demo-example">
+  <div class="bn_j7">
+      <select id="categories" name="categories" multiple>
+            <option value="a">Cat1</option>
+            <option value="b">Cat2</option>
+            <option value="c">Cat3</option>
+            <option value="d">Cat4</option>
+            <option value="e">Cat5</option>
+            <option value="f">Cat6</option>
+            <option value="g">Cat7</option>
+            <option value="h">Cat8</option>
+        </select>
+    
+      </div>
+     
+    </form>
+  </div>
+
+
+  <div class="col-sm-6">
+      <input type="text" class="form-control nm_h6" name="weblink" placeholder="Website Link">
+    </div>
+     <div class="col-sm-6">
+      <input type="" class="form-control nm_h6" name="phone" placeholder="Alternate Phone" onkeypress="return isNumberKey(event)">
+    </div>
+
+                  <div class="col-sm-12">
+                    <div class="working_dayss">
+                      <label>Working Days</label>
+              <div class="day_wise">
+                <input type="button" id="button" value="SUN" style="color:white" onclick="setColor(event, 'button', '#101010')"; data-count="" />
+              <input type="button" id="button" value="MON" style="color:white" onclick="setColor(event, 'button', '#101010')"; data-count="" />
+             <input type="button" id="button" value="TUE" style="color:white" onclick="setColor(event, 'button', '#101010')"; data-count="" />
+              <input type="button" id="button" value="WED" style="color:white" onclick="setColor(event, 'button', '#101010')"; data-count="" />
+             <input type="button" id="button" value="THU" style="color:white" onclick="setColor(event, 'button', '#101010')"; data-count="" />
+             <input type="button" id="button" value="FRI" style="color:white" onclick="setColor(event, 'button', '#101010')"; data-count="" />
+            <input type="button" id="button" value="SAT" style="color:white" onclick="setColor(event, 'button', '#101010')"; data-count="" />
+              
+              </div>
+                 
+                  </div>
+                           <div class="col-sm-6">
+      <input type="text" id="shw" class="form-control nm_h6" name="days" placeholder="Working Hours">
+    </div>
+        
+                    
+    <div class="col-sm-6">
+    <div id="locationField">
+      <input id="autocomplete" placeholder="Location" class="form-control nm_h6"
+             onFocus="geolocate()" type="text"></input>
+    </div>
+    </div>
+  
+     <div class="col-sm-12">
+      <div class="demos">
+      <div class="owl-carousel owl-theme">
+            
+            <div class="item">
+               <img src="images/srch1.png">
+            </div>
+            <div class="item">
+                <img src="images/srch1.png">
+            </div>
+            <div class="item">
+               <img src="images/srch1.png">
+            </div>
+            <div class="item">
+               <img src="images/srch1.png">
+            </div>
+            <div class="item">
+               <img src="images/srch1.png">
+            </div>
+            <div class="item gfg">
+               <span class="btn btn-default btn-file up_img">
+
+            <input type="file" accept="image">
+           <img src="images/choose.png">
+            </span>
+           </div>
+          </div>
+         </div>
+        </div>
+
+                 <div class="col-sm-6">
+                  <input name="empnum" required="" class="form-control nm_h6" type="" onkeypress="return isNumberKey(event)" placeholder="Number Of Employees">
+                  </div>
+                  <div class="col-sm-6">
+                  <input name="experience" required="" class="form-control nm_h6" type="" onkeypress="return isNumberKey(event)" placeholder="Years Of Experience">
+                  </div>
+
+                   <div class="col-sm-12">
+                   
+                   <textarea class="form-control" id="exampleTextarea" rows="3" placeholder="About Me"></textarea>
+                  </div>
+                  <div class="work_links">
+                  <h2>Works Links</h2>
+                    <div class="col-sm-6">
+                  <input type="text" name="fb" required="" class="form-control nm_h6" placeholder="Facebook">
+                  </div>
+                   <div class="col-sm-6">
+                  <input type="text" name="angies" required="" class="form-control nm_h6" placeholder="Angies List">
+                  </div>
+                  
+                    <div class="col-sm-6">
+                  <input type="text" name="fb" required="" class="form-control nm_h6" placeholder="Yelp">
+                  </div>
+                   <div class="col-sm-6">
+                  <input type="text" name="google" required="" class="form-control nm_h6" placeholder="Google">
+                  </div>
+                   <div class="acct_btns">
+
+                <a href="dashboard.html"><input type="submit" name="" class="btn btn log" value="Submit"></a>
+              
+               </div>
+
+                 </div>
+                </div>
+             
+           </div>
+
+            </div>
+           
+          </div>
+          
+        </div>
+        
+      </div>
+</div>
+
+
+<!---create business profile description text popup-->
+<div class="modal_view forgot_pass text_des">
+      <div class="modal fade" id="modal-container-557083" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+          <!--=button type="button" class="close" data-dismiss="modal" onClick="opp()" aria-hidden="true">×</button-->
+              <h4 class="modal-title" id="myModalLabel">Create Business profile</h4>
+            </div>
+            <div class="modal-body">
+              <div class="main_content">
+                <p>Create your Business Profile by giving us the best of information yoy know. So that we may help you in getting the work as per your skills.</p>
+                <p>OR</p>
+                <p>If you are not looking for work, then you may skip this form.</p>
+                <p>Thanks</p>
+
+               <div class="acct_btns">
+              <input type="button" name="" class="btn btn log" value="Ok" data-dismiss="modal" onClick="opp()">
+               </div>
+          
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+
+<!--time show popup-->
+    <div class="proposal tme_mdl">
+<div class="modal" id="modal-container-405600" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            <h4 class="modal-title" id="myModalLabel"> Set Working Hours</h4>
+            </div>
+            <div class="modal-body">
+            <div class="main_content">
+              <form name="myForm" id="myForm" onsubmit="myFunction()" method="post">
+                   <div class="col-sm-12">
+                    <label>Start Time</label>
+      <input type="text" id="timepicker" class="form-control nm_h6 timer1" name="days" placeholder="Select Time">
+    </div>
+               <div class="col-sm-12">
+                <label>End Time</label>
+      <input type="text" id="timepicker1" class="form-control nm_h6 timer2" name="days" placeholder="Select Time">
+    </div>
+              <div class="acct_btns">
+             <input type="" name="" class="btn btn log" value="Submit" id="showval" onclick="closeTimerModal()">
+                
+              </div>
+            </form>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap-select.js"></script>
+     <script src="js/owl.carousel.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/mdtimepicker.js"></script>
+     <script src="js/multiple-select.js"></script>
+     <script src="js/jquery.multi-select.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.4/js/select2.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCunRJ839gDXNNaso8nF0Y5fSLCJDgYMM0&libraries=places&callback=initAutocomplete"
+        async defer></script>
+    <!--google map-->
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC8uw9R085Du9HPS6r4pmgLwXqd5R90YZU&callback=initMap">
+    </script>
+
+<!---otp texlimit script-->
+<script language="javascript" type="text/javascript">
+function limitText(limitField, limitNum) {
+    if (limitField.value.length > limitNum) {
+        limitField.value = limitField.value.substring(0, limitNum);
+    }
+}
+
+</script>
+
+<!--gender script-->
+<script>
+  $("#target").val($("#target option:first").val());
+</script>
+
+<!---slider css-->
+ <script>
+            $(document).ready(function() {
+              var owl = $('.owl-carousel');
+              owl.owlCarousel({
+                items: 5,
+                loop: false,
+                margin: 10,
+                autoplay: true,
+                /*autoplayTimeout: 1000,*/
+                autoplayHoverPause: true
+              });
+             /* $('.play').on('click', function() {
+                owl.trigger('play.owl.autoplay', [1000])
+              })
+              $('.stop').on('click', function() {
+                owl.trigger('stop.owl.autoplay')
+              })*/
+            })
+          </script>
+
+
+
+ <!--map script-->
+  <script>
+    var map, infoWindow;
+  function initMap() {
+       
+          var locations = [
+      ['Phase 6 Mohali',  30.7329, 76.7084, 4],
+      ['Phase 9 Mohali', 30.694, 76.7351, 5],
+      ['Phase 10 Mohali', 30.6861, 76.7409, 3],
+      ['Phase 8 Mohali', 30.7104586, 76.70334709999997, 2],
+      ['Phase 7 Mohali', 30.716588,  76.701648, 1]
+    ];
+
+    var map = new google.maps.Map(document.getElementById('map'), {
+      zoom: 14,
+      center: new google.maps.LatLng(30.67995, 76.72211),
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+
+    });
+
+
+    var infowindow = new google.maps.InfoWindow();
+    var marker, i;
+    for (i = 0; i < locations.length; i++) { 
+      marker = new google.maps.Marker({
+        position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+       
+        map: map
+      });
+
+      
+//Change the marker icon
+    marker.setIcon('http://18.221.208.199/web/images/thumb.png');
+      google.maps.event.addListener(marker, 'click', (function(marker, i) {
+        return function() {
+          infowindow.setContent(locations[i][0]);
+          infowindow.open(map, marker);
+        }
+      })(marker, i));
+}
+
+//map resize click on button
+$(document).ready(function()
+{
+    $("#btn_one").click(function(){
+        google.maps.event.trigger(map, 'resize');
+    });
+    $("#btn_two").click(function(){
+        google.maps.event.trigger(map, 'resize');
+    });
+});
+}
+    </script>
+
+ 
+
+  </body>
+</html>
